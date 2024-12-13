@@ -17,11 +17,11 @@ Designed for GitHub Pages for super easy set up.
 
 🗝 Enter iOS App ID in `_config.yml`
 
-📲 Upload video preview or screenshot
+📲 Upload ~~video preview or~~ screenshot
 
 🎨 Customise site in `_config.yml` (no HTML/CSS)
 
-📝 Write Privacy Policy as markdown in `privacypolicy.md`
+📝 ~~Write Privacy Policy as markdown in `privacypolicy.md`~~
 
 🕒 Keep a changelog in `CHANGELOG.md`
 
@@ -34,7 +34,7 @@ Designed for GitHub Pages for super easy set up.
 
 ## Quick Start
 
-### Step 1: Fork this repo.
+### Step 1: Fork the original repo.
 After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
 *Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.*
@@ -71,19 +71,19 @@ Things you can customise in `_config.yml`:
 #### Adding a screenshot
 Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. Be sure to delete the placeholder `yourscreenshot.png`.
 
-#### Adding video
-Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
+~~#### Adding video~~
+~~Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.~~
 
-Video formats supported by Chrome and Firefox:
-- `.webm`
-- `.ogg`
+~~Video formats supported by Chrome and Firefox:~~
+~~- `.webm`~~
+~~- `.ogg`~~
 
-Video formats supported by Safari:
-- `.mp4`
-- `.mov`
+~~Video formats supported by Safari:~~
+~~- `.mp4`~~
+~~- `.mov`~~
 
 #### Resolutions
-The videos and screenshots must have one of the following resolutions:
+The ~~videos and~~ screenshots must have one of the following resolutions:
 - 828x1792
 - 1125x2436
 - 1242x2688
@@ -102,21 +102,11 @@ If you need to, you can create additional markdown based pages just by creating 
 You can also choose not to include these pages, by simple deleting the `privacypolicy.md` and `CHANGELOG.md` files.
 
 
-
-
-## Feedback
-If you have feedback regarding bugs or improvements, open an issue, @ me on Twitter or write me an email. You can find my contact info on my website.
-
-I'd love to see the sites you create using this little tool.
-
 ## Credits
 - [Jekyll](https://github.com/jekyll/jekyll)
 - [FontAwesome](https://fontawesome.github.io/Font-Awesome/)
 
-## Donations
-[Donations are welcome](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S8ZZT3JXJPN92&currency_code=USD&source=url)
-
-## Author
+## Original Author
 [Emil Baehr](https://emilbaehr.com/)
 
 ## License
