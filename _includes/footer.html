@@ -4,7 +4,7 @@
 	{% endif %}
 	<div class="footerIcons">
 
-		{% if site.facebook_username %}
+		<!-- {% if site.facebook_username %}
 			<a href="https://facebook.com/{{ site.facebook_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
@@ -29,7 +29,7 @@
 					<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
 				</span>
 			</a>
-		{% endif %}
+		{% endif %} -->
 
 		{% if site.mastodon_link %}
 			<a rel="me" href="{{ site.mastodon_link }}">
@@ -40,14 +40,23 @@
 			</a>
 		{% endif %}
 
-		{% if site.github_username %}
+		{% if site.bluesky_link %}
+		<a rel="me" href="{{ site.bluesky_link }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fa-brands fa-bluesky fa-stack-1x"></i>
+			</span>
+		</a>
+		{% endif %}
+
+		<!-- {% if site.github_username %}
 			<a href="https://github.com/{{ site.github_username }}">
 				<span class="fa-stack fa-1x">
 					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
 					<i class="socialIconTop fab fa-github fa-stack-1x"></i>
 				</span>
 			</a>
-		{% endif %}
+		{% endif %} -->
 
 		{% if site.email_address %}
 			<a href="mailto:{{ site.email_address }}">
@@ -63,8 +72,9 @@
 		{% for page in site.pages %}
 			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
 		{% endfor %}
+		<a href="https://msiccdev.net/appprivacy" target="_blank">Privacy Policy</a>
 		{% if site.presskit_download_link %}
 			<a href="{{ site.presskit_download_link }}">Press Kit</a>
-		{% endif %}
+		{% endif %}		
 	</div>
 </footer>
