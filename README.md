@@ -3,10 +3,10 @@
 [Direct link](https://github.com/emilbaehr/automatic-app-landing-page)
 
 ## Features removed
-     - video support
-     - device frame, instead I use a local tool to create the screenshots including the device frame already
-     - this means also no update of the screenshot via updating the app store and is intentional
-     - other tweaks that make the template more usable for me
+- video support
+- device frame, instead I use a local tool to create the screenshots including the device frame already
+- this means also no update of the screenshot via updating the app store and is intentional
+- other tweaks that make the template more usable for me
 
 ## Automatic App Landing Page
 **Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
